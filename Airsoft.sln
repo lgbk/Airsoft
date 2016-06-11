@@ -3,14 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDA2D733-673A-4F76-9D10-28B186F6958F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD3B3851-7809-455E-9822-86C8162DEF61}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Airsoft", "src\Airsoft\Airsoft.xproj", "{E4AC8701-34C4-4C3B-9E73-07F0B91EC756}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Airsoft.WebUI", "Airsoft.WebUI\Airsoft.WebUI.xproj", "{68537733-6909-4089-B148-F726B2FAD0E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +16,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4AC8701-34C4-4C3B-9E73-07F0B91EC756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4AC8701-34C4-4C3B-9E73-07F0B91EC756}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4AC8701-34C4-4C3B-9E73-07F0B91EC756}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4AC8701-34C4-4C3B-9E73-07F0B91EC756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68537733-6909-4089-B148-F726B2FAD0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68537733-6909-4089-B148-F726B2FAD0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68537733-6909-4089-B148-F726B2FAD0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68537733-6909-4089-B148-F726B2FAD0E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E4AC8701-34C4-4C3B-9E73-07F0B91EC756} = {EDA2D733-673A-4F76-9D10-28B186F6958F}
 	EndGlobalSection
 EndGlobal
